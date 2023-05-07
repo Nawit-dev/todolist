@@ -1,0 +1,11 @@
+
+.todoadd_wrapper{
+    display: flex;
+    margin-top: 12px;
+}
+.todo-add{
+    flex-grow: 1;
+}
+.todoadd_wrapper .btn{
+    margin-left: 5px;
+}

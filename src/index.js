@@ -1,35 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+
+import { createRoot } from 'react-dom/client';
+import App from './components/app'
 
 
-const TodoList = () => {
-    return <ul >
-        <li > Learn React </li> 
-        <li > build Awesome App </li> 
-        </ul>
-}
-const AppHeader =()=>{
-    return <h1 > My Todo list </h1> 
-}
 
-const SearchPanel=()=> {
-return <input placeholder='seasrch'/>
-}
 
-const App =()=>{
-    return(   <div >
-        <AppHeader/>
-        <SearchPanel/>
-       <TodoList/>
-       </div >)
-} 
 
-const el = ( 
-   <div >
-     <AppHeader/>
-     <SearchPanel/>
-    <TodoList/>
-    </div >
+const domNode = document.getElementById('root');
+const root = createRoot(domNode);
+root.render(<App />);
 
-)
-ReactDOM.render(<App/>, document.getElementById('root'));

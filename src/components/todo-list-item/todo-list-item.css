@@ -1,0 +1,29 @@
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+.done{ 
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+
+
+
+.todo-list-item-label {
+    cursor: pointer;
+}
+
+.buttons_wrapper .btn+.btn {
+    margin-left: 5px;
+}
+
+.buttons_wrapper .btn {
+    width: 28px;
+    height: 28px;
+}
+.important{
+font-weight: bold;
+color: steelblue;
+}
