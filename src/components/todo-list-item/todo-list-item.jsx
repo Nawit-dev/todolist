@@ -27,7 +27,7 @@ export default class TodoListItem extends Component {
         </span>
         <div className="buttons_wrapper">
           <button type="button" className="btn  btn-outline-warning btn-sm"
-          onClick={onToggleDone}>
+          onClick={onDeleted}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
